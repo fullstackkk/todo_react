@@ -47,6 +47,13 @@ code {
   line-height: 25px;
   margin: 0;
 }
+.create-card{
+  height: 30px;
+  border: none;
+  border-radius:5px;
+  background-color: #fff;
+  cursor: pointer;
+}
 .card{
   display: flex;
   flex-direction: column;
@@ -55,11 +62,17 @@ code {
   border-radius:5px;
   padding: 10px 15px;
   cursor: pointer;
+  gap: 10px;
 }
 .card__title{
   font-size: 14px;
   line-height: 21px;
   font-weight: 500;
+  border: none;
+  border-radius:5px;
+  max-width: 260px;
+  min-width: 260px;
+  max-height: 100px;
 }
 .card__info{
   display: flex;
@@ -75,6 +88,13 @@ code {
   background-color: #91a596;
   color: azure;
   font-size: 10px;
+}
+.delete{
+  margin-left: auto;
+  border: 1px solid gray;
+  border-radius:5px;
+  background-color: #fff;
+  cursor: pointer;
 }
 .to-do{
   background-color: #59B4D1;
